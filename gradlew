@@ -8,7 +8,6 @@
 # You may obtain a copy of the License at
 #
 #      https://www.apache.org/licenses/LICENSE-2.0
-#
 
 ##############################################################################
 #
@@ -134,4 +133,4 @@ set -- \
         org.gradle.wrapper.GradleWrapperMain \
         "$@"
 
-exec "$JAVACMD" $DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS "$@"
+exec "$JAVACMD" $DEFAULT_JVM_OPTS $JAVA_OPTS "$GRADLE_OPTS" "$@"
